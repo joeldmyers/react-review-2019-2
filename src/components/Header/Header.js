@@ -1,4 +1,5 @@
 import React from 'react';
+import './Header.scss';
 
 const Header = () => (
   <header className="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
@@ -11,12 +12,12 @@ const Header = () => (
         </li>
         <li className="nav-item">
           <a className="nav-link" href="/">
-            Home
+            About
           </a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="/">
-            Home
+            Contact
           </a>
         </li>
       </ul>

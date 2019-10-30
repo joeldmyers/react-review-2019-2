@@ -1,16 +1,14 @@
-import React, { Component } from "react";
-import ReactDOM from "react-dom";
-import Header from "./components/header";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Header from './components/Header/Header';
+import ButtonToggle from './components/ButtonToggle/ButtonToggle';
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <Header />
-        <p>First Dom Content</p>
-      </div>
-    );
-  }
-}
+const App = () => (
+  <div>
+    <Header />
+    <p>First Dom Content</p>
+    <ButtonToggle />
+  </div>
+);
 
-ReactDOM.render(<App />, document.getElementById("app-root"));
+ReactDOM.render(<App />, document.getElementById('app-root'));
